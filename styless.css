@@ -1,0 +1,58 @@
+/* Fancy Virtual Pet Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+    color: #ffcc00;
+}
+
+#pet-container {
+    margin: 20px 0;
+}
+
+#pet {
+    width: 150px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.stats p {
+    font-size: 18px;
+    margin: 5px 0;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.controls button {
+    margin: 10px;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+button:nth-child(1) { background: #ff5733; color: white; } /* Feed */
+button:nth-child(2) { background: #33c1ff; color: white; } /* Play */
+button:nth-child(3) { background: #33ff77; color: white; } /* Rest */
+
+button:hover {
+    opacity: 0.8;
+}

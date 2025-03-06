@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Virtual Pet</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🐾 My Virtual Pet 🐾</h1>
+        <div id="pet-container">
+            <img id="pet" src="happy.png" alt="Virtual Pet">
+            <p id="status-text">Your pet is happy!</p>
+        </div>
+        <div class="stats">
+            <p>Hunger: <span id="hunger">50</span>%</p>
+            <p>Happiness: <span id="happiness">50</span>%</p>
+            <p>Energy: <span id="energy">50</span>%</p>
+        </div>
+        <div class="controls">
+            <button onclick="feedPet()">🍖 Feed</button>
+            <button onclick="playWithPet()">🎾 Play</button>
+            <button onclick="restPet()">💤 Rest</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
